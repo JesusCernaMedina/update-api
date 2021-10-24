@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 2020covid19UAM
+    url: jdbc:mysql://super-app-hackathon.cluster-cxcdnslqi7uc.us-east-1.rds.amazonaws.com:3306/super_app_bd?useSSL=false
+    username: superapp
+  jpa:
+    hibernate:
+      ddl-auto: none
